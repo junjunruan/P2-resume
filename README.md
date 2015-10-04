@@ -10,7 +10,7 @@ Click this link to visite my online resume: http://junjunruan.github.io/P2-resum
 
 1. The resume has four distinct sections: work, education, projects and a header with biographical information.
 
-Build four JSONs, each one representing a different resume section, The objects that you create need to follow the names within the schema exactly:
+  Build four JSONs, each one representing a different resume section, The objects that you create need to follow the names within the schema exactly:
 
 `bio` contains:
 ```
@@ -68,11 +68,11 @@ display: function
 
 2. Iterate through each JSON and append its information to index.html in the correct section.
 
-First off, use jQuery’s selector.append() and selector.prepend() functions to modify index.html. selector.append() makes an element appear at the end of a selected section. selector.prepend() makes an element appear at the beginning of a selected section.
+  First off, use jQuery’s selector.append() and selector.prepend() functions to modify index.html. selector.append() makes an element appear at the end of a selected section. selector.prepend() makes an element appear at the beginning of a selected section.
 
-Next, pay close attention to the ids of the <div>s in index.html and the HTML snippets in helper.js. They are very useful as jQuery selectors for selector.append() and selector.prepend()
+  Next, pay close attention to the ids of the <div>s in index.html and the HTML snippets in helper.js. They are very useful as jQuery selectors for selector.append() and selector.prepend()
 
-Then, use the JavaScript method string.replace(old, new) to swap out all the placeholder text (e.g. %data%) for data from resume JSONs.
+  Then, use the JavaScript method string.replace(old, new) to swap out all the placeholder text (e.g. %data%) for data from resume JSONs.
 
 3. Include an interactive map to show where I lived and worked, and make additional information show up when you click on the pins in the map by using Google Maps API.
 
