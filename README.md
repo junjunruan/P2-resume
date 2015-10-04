@@ -4,7 +4,7 @@ In this project, an online resume should be created based on mockup design. Here
 Click this link to visite my online resume: http://junjunruan.github.io/P2-resume/
 
 - Required courses: [JavaScript Basics](https://www.udacity.com/course/javascript-basics--ud804) and [Intro to jQuery] (https://www.udacity.com/course/intro-to-jquery--ud245).
-- Required technics: javaScript, jQuery, JSON, HTML, CSS, Bootstrap and Chrome Developer Tools.
+- Required technics: javaScript, jQuery, JSON, HTML, CSS, Bootstrap and Chrome Developer Tools, Google Maps API.
 
 ####Process to finish this project:
 
