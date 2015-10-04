@@ -74,7 +74,9 @@ Click this link to visite my online resume: http://junjunruan.github.io/P2-resum
 
   - Then, use the JavaScript method string.replace(old, new) to swap out all the placeholder text (e.g. %data%) for data from resume JSONs.
 
-3. Include an interactive map to show where I lived and worked, and make additional information show up when you click on the pins in the map by using Google Maps API.
+3. All of your code for adding elements to the resume should be within functions. And all of functions should be encapsulated within the same objects containing your resume data. For instance, functions for appending work experience elements to the page should be found within the same object containing data about work experience.
 
-4. use `console.log()` to display information about click locations using jQuery onclick handler.
+4. Include an interactive map to show where I lived and worked, and make additional information show up when you click on the pins in the map by using Google Maps API.
+
+5. use `console.log()` to display information about click locations using jQuery onclick handler.
 
