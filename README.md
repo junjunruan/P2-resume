@@ -12,65 +12,65 @@ Click this link to visite my online resume: http://junjunruan.github.io/P2-resum
 
   Build four JSONs, each one representing a different resume section, The objects that you create need to follow the names within the schema exactly:
 
-`bio` contains:
-```
-name : string
-role : string
-contacts : an object with
-      mobile: string
-      email: string 
-      github: string
-      twitter: string 
-      location: string
-welcomeMessage: string 
-skills: array of strings
-biopic: url
-display: function
-```
+  `bio` contains:
+  ```
+  name : string
+  role : string
+  contacts : an object with
+        mobile: string
+        email: string 
+        github: string
+        twitter: string 
+        location: string
+  welcomeMessage: string 
+  skills: array of strings
+  biopic: url
+  display: function
+  ```
 
-`education` contains:
-```
-schools: array of objects with
-     name: string
-     location: string
-     degree: string
-     majors: array of strings
-     dates: integer (graduation date)
-     url: string
-onlineCourses: array of objects with
-     title: string
-     school: string
-     date: integer (date finished)
-     url: string
-display: function
-```
-
-`work` contains
-```
-jobs: array of objects with
-     employer: string 
-     title: string 
-     location: string 
-     dates: string (works with a hyphen between them)
-     description: string 
-display: function
-```
-
-`projects` contains:
-```
-projects: array of objects with
-      title: string 
-      dates: string (works with a hyphen between them)
-      description: string
-      images: array with string urls
-display: function
-```
+  `education` contains:
+  ```
+  schools: array of objects with
+       name: string
+       location: string
+       degree: string
+       majors: array of strings
+       dates: integer (graduation date)
+       url: string
+  onlineCourses: array of objects with
+       title: string
+       school: string
+       date: integer (date finished)
+       url: string
+  display: function
+  ```
+  
+  `work` contains
+  ```
+  jobs: array of objects with
+       employer: string 
+       title: string 
+       location: string 
+       dates: string (works with a hyphen between them)
+       description: string 
+  display: function
+  ```
+  
+  `projects` contains:
+  ```
+  projects: array of objects with
+        title: string 
+        dates: string (works with a hyphen between them)
+        description: string
+        images: array with string urls
+  display: function
+  ```
 
 2. Iterate through each JSON and append its information to index.html in the correct section.
 
   First off, use jQuery’s selector.append() and selector.prepend() functions to modify index.html. selector.append() makes an element appear at the end of a selected section. selector.prepend() makes an element appear at the beginning of a selected section.
 
-  Next, pay close attention to the ids of the <div>s in index.html and the HTML snippets in helper.js. They are very useful as jQuery selectors for selector.append() and selector.prepend()
+  Next, pay close attention to the ids of the `<div>s` in index.html and the HTML snippets in helper.js. They are very useful as jQuery selectors for selector.append() and selector.prepend()
 
   Then, use the JavaScript method string.replace(old, new) to swap out all the placeholder text (e.g. %data%) for data from resume JSONs.
 
